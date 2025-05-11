@@ -1,14 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Fernanda Souza</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <meta name="author" content="Fernanda Souza" />
+    <meta name="description" content="The WDD 131 - Dynamic Web Fundamentals page it's a brief summary about Fernanda Souza's life expressing what she's learning about HTML, CSS, and JavaScript." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wdth@87.5&family=Montserrat:wght@700&display=swap"
+        rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
-    <h1>WDD 131 - Fernanda Souza</h1>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - <span class="highlight">Fernanda Souza</span></h1>
+        <nav>
+            <ul>
+                <li><a href="https://linkedin.com/in/fernanda-souza-f/">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng&id=p34-p35#p34">Scripture</a></li>
+                <li><a href="final-project">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+
+                <h2>About Me</h2>
+                <div id="about-me-content">
+                     <img src="images/fernanda.webp" alt="Fernanda's picture">
+                     <p>I've been testing software for almost four years, both for web and mobile applications—something I thoroughly enjoy. I'm
+                     passionate about ensuring the quality of what's delivered to the end user, especially when it's accessible to everyone.
+                     I enjoy challenges, and in the world of software, new ones are always emerging. Over time, I've realized the importance
+                     of evolving alongside technology, which led me to pursue a Bachelor's degree in Software Development at BYU-Idaho
+                     through Pathway Connect Worldwide. This experience has helped me discover how much I enjoy learning how software works
+                     and how to make it look more attractive and well-crafted. I believe that by studying and putting each challenge into
+                     practice, I can become a better QA professional and, in the near future, a better web designer.
+                     </p>
+                </div>
+               
+                <h3>My Country: Uruguay 🧉​</h3>
+                <div id="my-country">
+                    <figure>
+                    <img src="images/uruguay-flag.jpg" alt="Flag of Uruguay">
+                    <figcaption>Flag of Uruguay</figcaption>
+                    </figure>
+                    <p>I'm from Uruguay, it's a beautiful place to live. We have simple things like football,
+                    carnival, beaches, drinking mate, that make
+                    people happy and make it a unique place.
+                    Regarding the Software Software development in Uruguay is growing rapidly and expanding globally, with products being sold to many countries.
+                    People are increasingly aware of the need to learn and use technology in their daily lives.
+                    </p>
+                 </div>
+        </section>
+
+        <section class="card">
+            <h2>Web Design Tools</h2>
+            <ul>
+                <li><a href="https://coolors.co/">Color palletes generator - Coolors</a></li>
+                <li><a href="https://squoosh.app/">Image editor - Squoosh</a></li>
+                <li><a href="https://fonts.google.com/">Google fonts</a></li>
+                <li><a href="https://www.siegemedia.com/contrast-ratio#darkblue-on-%23a7ddf0">Color constrast checker - Siegemedia</a></li>
+                <li><a href="https://wave.webaim.org/">Web accessibility evaluation - WAVE</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML - MDN</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS - MDN</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting">Dynamic scripting with JavaScript - MDN</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> - 👩🏽‍💻​ Fernanda Souza 🌞​🌄​🌛​🌿​🏵️​ - Uruguay</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+
 </body>
 
 </html>

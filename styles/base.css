@@ -1,0 +1,152 @@
+:root {
+    --primary-color: #F7F6B9;
+    --secondary-color:#1F1300;
+    --accent1-color: #1F6099;
+    --accent2-color: #4c6a01;
+    --accent3-color: #E98000;
+}
+
+body {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.highlight
+{
+    color: var(--accent3-color);
+}
+
+header{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    max-width: auto;
+    gap: 2rem;
+    padding: 20px;
+    margin: 10px 20px;
+}
+
+.card {
+    background-color: var(--accent2-color);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-self: stretch;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; 
+    box-shadow: 0 4px 8px var(--secondary-color);
+}
+
+.card ul{
+    padding-left: 20px;
+    align-content: center;
+}
+
+h2{
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid var(--secondary-color);
+    border-collapse: collapse;
+    border-radius: 1rem;
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+nav{
+    background-color: var(--secondary-color);
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav a,
+ul a{
+    color: var(--primary-color);
+    padding: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover{
+    border: 1px solid var(--primary-color);
+}
+
+figcaption {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 2px;
+    text-align: center;
+}
+
+#about-me-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-direction: row-reverse;
+}
+
+#my-country
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+} 
+
+#about-me-content img,
+#my-country img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+#about-me-content p,
+#my-country p {
+    max-width: 600px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+@media (min-width: 640px){
+    nav ul{
+        display: flex;
+    }
+    nav ul li{
+        flex: 1 1 100%;
+    }
+}

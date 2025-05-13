@@ -1,9 +1,8 @@
 :root {
     --primary-color: #F7F6B9;
-    --secondary-color:#1F1300;
-    --accent1-color: #1F6099;
-    --accent2-color: #4c6a01;
-    --accent3-color: #E98000;
+    --secondary-color: #1F1300;
+    --accent1-color: #4c6a01;
+    --accent2-color: #E98000;
 }
 
 body {
@@ -13,19 +12,18 @@ body {
     color: var(--secondary-color);
 }
 
-h1{
+h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: var(--secondary-color);
     text-align: center;
 }
 
-.highlight
-{
-    color: var(--accent3-color);
+.highlight {
+    color: var(--accent2-color);
 }
 
-header{
+header {
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -33,70 +31,80 @@ header{
 
 main {
     display: grid;
-    grid-template-columns: 70% 30%;
-    max-width: auto;
-    gap: 2rem;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    justify-items: center;
     padding: 20px;
     margin: 10px 20px;
 }
 
-.card {
-    background-color: var(--accent2-color);
-    padding: 15px;
+.card-about-me {
+    width: 100%;
+    max-width: 800px;
+    background-color: var(--accent1-color);
+    padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    align-self: stretch;
-}
-
-.card img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px; 
     box-shadow: 0 4px 8px var(--secondary-color);
 }
 
-.card ul{
+.card-tools {
+    background-color: var(--accent1-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--secondary-color);
+}
+
+.card-about-me img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+    box-shadow: 0 4px 8px var(--secondary-color);
+}
+
+.card-tools ul {
     padding-left: 20px;
     align-content: center;
 }
 
-h2{
-    background-color: var(--accent2-color);
+h2 {
     color: var(--primary-color);
     font-family: "Montserrat", sans-serif;
     border: 2px solid var(--secondary-color);
     border-collapse: collapse;
-    border-radius: 1rem;
+    border-radius: 8px;
     padding: 10px;
     text-align: center;
 }
 
 h3 {
-    text-decoration: underline;
+    text-align: center;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
 }
 
-nav{
+nav {
     background-color: var(--secondary-color);
     margin: 0 auto;
-    max-width: 1000px;
 }
 
-nav ul
-{
+nav ul {
     list-style-type: none;
 }
 
 nav a,
-ul a{
+ul a {
     color: var(--primary-color);
-    padding: 1rem;
+    padding: 20px;
     text-decoration: none;
     display: flex;
     align-items: center;
 }
 
-nav a:hover{
-    border: 1px solid var(--primary-color);
+nav a:hover,
+ul a:hover {
+    color: var(--accent2-color);
+    text-decoration: underline;
 }
 
 figcaption {
@@ -104,22 +112,26 @@ figcaption {
     color: var(--secondary-color);
     padding: 2px;
     text-align: center;
+    box-shadow: 0 4px 8px var(--secondary-color);
+    border-radius: 8px;
 }
 
 #about-me-content {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    flex-direction: row-reverse;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
 }
 
-#my-country
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-} 
+#my-country-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
 
 #about-me-content img,
 #my-country img {
@@ -133,20 +145,29 @@ figcaption {
     max-width: 600px;
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    flex-flow: column;
+    padding: 5px;
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    line-height: 0.25;
 }
 
-@media (min-width: 640px){
-    nav ul{
+@media (min-width: 640px) {
+    nav ul {
         display: flex;
     }
-    nav ul li{
+
+    nav ul li {
         flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
     }
 }

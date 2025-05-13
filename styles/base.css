@@ -2,7 +2,7 @@
     --primary-color: #F7F6B9;
     --secondary-color: #1F1300;
     --accent1-color: #4c6a01;
-    --accent2-color: #E98000;
+    --accent2-color: #d17300;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    color: var(--secondary-color);
+    color: #000000;
     text-align: center;
 }
 

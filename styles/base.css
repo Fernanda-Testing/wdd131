@@ -131,6 +131,7 @@ figcaption {
     justify-content: center;
     padding: 20px;
     position: relative;
+    font-weight: 570;
 }
 
 #about-me-content img,
@@ -143,6 +144,7 @@ figcaption {
 #about-me-content p,
 #my-country p {
     max-width: 600px;
+    font-weight: 570;
 }
 
 footer {

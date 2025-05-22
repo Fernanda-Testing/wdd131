@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #2B4726;
+    --accent1-color: #FCFFD6;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-gap: 1rem;
+    padding: 20px;
+    box-shadow: 0 0 30px #333;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.25rem;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+nav {
+    background-color: var(--secondary-color)
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.open {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a { 
+    display: block;
+    color: var(--accent1-color);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.navigation a:hover { 
+    text-decoration: underline double;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+}
+
+.open a {
+    display: block;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: var(--accent1-color);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+    color: var(--accent1-color);
+}
+
+#temple-album {
+    color: var(--accent1-color);
+    font-size: 2rem;
+    padding: 10px;
+}
+
+#album-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-items: center;
+    padding: 10px;
+}
+
+figure:hover {
+    box-shadow: 0 0 30px #333;
+}
+
+figure {
+    border-radius: 8px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0;
+    display: block;
+    background-color: var(--accent1-color);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    padding: 2px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding: 5px;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    line-height: 0.25;
+}

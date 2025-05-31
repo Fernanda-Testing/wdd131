@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uruguay My Place</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <meta name="author" content="Fernanda Souza">
+    <meta name="description"
+        content="Uruguay My Place is a page that briefly describes the current Uruguay by Fernanda Souza Web Development Student.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:opsz@18..144&display=swap" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Uruguay</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/uruguay-large-photo.webp" media="(min-width: 768px)">
+                <img src="images/uruguay-small-photo.webp" alt="Independence Square Monument of Artigas" width="500"
+                    height="667">
+            </picture>
+
+            <div class="data">
+                <h2>Data</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Area:</th>
+                            <td>176,215 km²</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Population:</th>
+                            <td>~3.5 million (2024 est.)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Capital:</th>
+                            <td>Montevideo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Languages:</th>
+                            <td>Spanish</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Currency:</th>
+                            <td>Uruguayan peso (UYU)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Time Zone:</th>
+                            <td>UTC-3 (UYT)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Calling Code:</th>
+                            <td>+598</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Internet TLD:</th>
+                            <td>.uy</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="weather">
+                <h2>Weather</h2>
+                <img src="images/weather-icon.webp" alt="weather icon">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Temperature:</th>
+                            <td>18°C</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Conditions:</th>
+                            <td>Partly Cloudy</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Wind:</th>
+                            <td>15 km/h SE</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Wind Chill:</th>
+                            <td>16°C</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> - 👩🏽‍💻​ Fernanda Souza 🌞​🌄​🌛​🌿​🏵️​ - Uruguay</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>

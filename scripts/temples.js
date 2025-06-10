@@ -198,6 +198,7 @@ function createTempleCard(filteredTemples) {
         img.src = temple.imageUrl;
         img.alt = temple.templeName;
         img.setAttribute("loading", "lazy");
+        img.setAttribute("tabindex", "0"); //To be able to navigate with the tab for accessibility
 
         const table = document.createElement("table");
 

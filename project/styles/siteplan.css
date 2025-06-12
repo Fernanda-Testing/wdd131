@@ -3,11 +3,6 @@
     --secondary-color: #2A4D14;
     --accent1-color: #67E0A3;
     --accent2-color: #317B22;
-
-    /* --primary-color: #e7ffe7;
-        --secondary-color: #2A4D14;
-        --accent1-color: #317B22;
-        --accent2-color: #67E0A3; */
 }
 
 body {
@@ -17,11 +12,11 @@ body {
     font-weight: 300;
 }
 
-header{
+header {
     border-bottom: 8px solid var(--accent1-color);
 }
 
-#wireframes{
+#wireframes {
     display: flex;
     justify-items: center;
     padding: 10px;
@@ -39,7 +34,11 @@ header{
     border-radius: 4px;
 }
 
-h1{
+.wireframe-item h3 {
+    color: var(--primary-color);
+}
+
+h1 {
     text-align: center;
 }
 

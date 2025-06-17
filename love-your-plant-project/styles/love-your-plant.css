@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #e7ffe7;
+    --secondary-color: #2A4D14;
+    --accent1-color: #67E0A3;
+    --accent2-color: #317B22;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+header {
+    border-bottom: 8px solid var(--accent1-color);
+}
+
+h1 {
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: var(--secondary-color);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding: 5px;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    line-height: 0.25;
+}

@@ -73,6 +73,19 @@ h2 {
     font-weight: 600;
 }
 
+.open a {
+    display: block;
+}
+
+.pages {
+    display: none;
+}
+
+.pages.open {
+    display: flex;
+    flex-direction: column;
+}
+
 #menu {
     font-size: 1.5rem;
     border: 0;

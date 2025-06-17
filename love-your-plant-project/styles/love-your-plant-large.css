@@ -33,10 +33,22 @@
     }
 
     #menu {
-        display: none; /* hide hamburger button */
+        display: none;
+        /* hide hamburger button */
     }
 
     .pages {
         display: flex !important;
+    }
+
+    .hero {
+        position: relative;
+    }
+
+    picture img {
+
+        width: 100%;
+        height: auto;
+        display: block;
     }
 }

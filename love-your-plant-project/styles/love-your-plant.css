@@ -13,11 +13,46 @@ body {
 }
 
 header {
-    border-bottom: 8px solid var(--accent1-color);
+    display: grid;
+    grid-gap: 1rem;
+    padding: 20px;
+}
+
+header img{
+    width: auto;
+    height: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.pages a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+}
+
+.pages a:hover {
+    color: var(--accent2-color);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.pages a.active {
+    color: var(--accent2-color);
+    font-weight: bold;
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
+    border-bottom: 8px solid var(--accent1-color);
 }
 
 h1,

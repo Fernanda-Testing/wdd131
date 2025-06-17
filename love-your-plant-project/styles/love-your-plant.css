@@ -73,10 +73,30 @@ h2 {
     font-weight: 600;
 }
 
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: var(--secondary-color);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+    color: var(--secondary-color);
+}
+
 footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     flex-flow: column;
     padding: 5px;
     background-color: var(--accent1-color);

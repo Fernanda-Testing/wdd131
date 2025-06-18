@@ -55,7 +55,8 @@ nav ul {
     font-size: larger;
 }
 
-.pages a:hover {
+.pages,
+.navigation a:hover {
     color: var(--accent2-color);
     font-weight: bold;
     text-decoration: underline;
@@ -66,6 +67,20 @@ nav ul {
     font-weight: bold;
     border-bottom: 2px solid var(--secondary-color);
 }
+
+.navigation {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navigation a {
+    display: flex;
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding: 8px;
+    text-align: center;
+} 
 
 h1,
 h2 {

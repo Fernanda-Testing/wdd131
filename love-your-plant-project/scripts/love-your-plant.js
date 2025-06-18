@@ -248,7 +248,7 @@ function createPlantCard(plantsArray, containerId) {
             <tr><td class="label">Sunlight Exposure: </td><td>${plant.sunligthExposure}</td></tr>
             <tr><td class="label">Size: </td><td>${plant.size}</td></tr>
         `;
-
+        
         plantCardsContainer.appendChild(figure);
         figure.appendChild(img);
         figure.appendChild(table);

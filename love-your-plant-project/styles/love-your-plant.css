@@ -80,7 +80,7 @@ nav ul {
     color: var(--secondary-color);
     padding: 8px;
     text-align: center;
-} 
+}
 
 h1,
 h2 {
@@ -160,8 +160,54 @@ picture img {
 }
 
 figure img {
-    width: auto;
-    height: 100px;
+    width: 100%;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+    margin: auto;
+}
+
+.album-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-items: center;
+    padding: 10px;
+}
+
+figure:hover {
+    box-shadow: 0 0 20px black;
+}
+
+figure {
+    border-radius: 8px;
+    overflow: hidden;
+    display: block;
+    margin: 8px;
+    padding: 8px;
+}
+
+figure table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+figure th {
+    padding: 4px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-size: larger;
+}
+
+figure td {
+    padding: 6px 10px;
+    text-align: left;
+    font-size: small;
+}
+
+.label {
+    font-weight: bold;
 }
 
 footer {

@@ -64,4 +64,10 @@
         height: auto;
         display: block;
     }
+
+    .album-content {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 1200px;
+        margin: 10px auto;
+    }
 }

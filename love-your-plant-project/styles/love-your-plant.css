@@ -55,14 +55,13 @@ nav ul {
     font-size: larger;
 }
 
-.pages,
-.navigation a:hover {
+a:hover {
     color: var(--accent2-color);
     font-weight: bold;
     text-decoration: underline;
 }
 
-.pages a.active {
+.active {
     color: var(--secondary-color);
     font-weight: bold;
     border-bottom: 2px solid var(--secondary-color);

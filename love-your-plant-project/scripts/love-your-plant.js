@@ -21,98 +21,98 @@ const houseplants = [
         plantName: "Aloe Vera",
         size: "Medium",
         flowers: "Yes",
-        sunligthExposure: "Indirect light",
+        sunlightExposure: "Indirect light",
         imgSource: "images/houseplants/aloe-vera.webp"
     },
     {
         plantName: "Anthurium",
         size: "Medium",
         flowers: "Yes",
-        sunligthExposure: "Indirect light",
+        sunlightExposure: "Indirect light",
         imgSource: "images/houseplants/anthurium.webp"
     },
     {
         plantName: "Jade Plant",
         size: "Medium",
         flowers: "Yes",
-        sunligthExposure: "Direct light",
+        sunlightExposure: "Direct light",
         imgSource: "images/houseplants/jade-plant.webp"
     },
     {
         plantName: "Kalanchoe",
         size: "Small",
         flowers: "Yes",
-        sunligthExposure: "Direct light",
+        sunlightExposure: "Direct light",
         imgSource: "images/houseplants/kalanchoe.webp"
     },
     {
         plantName: "Monstera",
         size: "Large",
         flowers: "Yes",
-        sunligthExposure: "Indirect light",
+        sunlightExposure: "Indirect light",
         imgSource: "images/houseplants/monstera.webp"
     },
     {
         plantName: "Orchid",
         size: "Medium",
         flowers: "Yes",
-        sunligthExposure: "Indirect light",
+        sunlightExposure: "Indirect light",
         imgSource: "images/houseplants/orchid.webp"
     },
     {
         plantName: "Peace Lily",
         size: "Medium",
         flowers: "Yes",
-        sunligthExposure: "Indirect light",
+        sunlightExposure: "Indirect light",
         imgSource: "images/houseplants/peace-lily.webp"
     },
     {
         plantName: "Philodendron",
         size: "Large",
         flowers: "No",
-        sunligthExposure: "Indirect light",
+        sunlightExposure: "Indirect light",
         imgSource: "images/houseplants/philodendron.webp"
     },
     {
         plantName: "Pothos",
         size: "Large",
         flowers: "No",
-        sunligthExposure: "Indirect light",
+        sunlightExposure: "Indirect light",
         imgSource: "images/houseplants/pothos.webp"
     },
     {
         plantName: "Rubber Plant",
         size: "Medium",
         flowers: "No",
-        sunligthExposure: "Indirect light",
+        sunlightExposure: "Indirect light",
         imgSource: "images/houseplants/rubber-plant.webp"
     },
     {
         plantName: "Snake Plant",
         size: "Large",
         flowers: "Yes",
-        sunligthExposure: "Indirect light",
+        sunlightExposure: "Indirect light",
         imgSource: "images/houseplants/snake-plant.webp"
     },
     {
         plantName: "Spider Plan",
         size: "Medium",
         flowers: "Yes",
-        sunligthExposure: "Indirect light",
+        sunlightExposure: "Indirect light",
         imgSource: "images/houseplants/spider-plant.webp"
     },
     {
         plantName: "Succulents",
         size: "Small",
         flowers: "Yes",
-        sunligthExposure: "Direct light",
+        sunlightExposure: "Direct light",
         imgSource: "images/houseplants/succulents.webp"
     },
     {
         plantName: "ZZ Plant",
         size: "Large",
         flowers: "No",
-        sunligthExposure: "Indirect light",
+        sunlightExposure: "Indirect light",
         imgSource: "images/houseplants/zz-plant.webp"
     },
 ];
@@ -122,98 +122,98 @@ const outdoorplants = [
         plantName: "Bougainvillea",
         size: "Medium",
         flowers: "Yes",
-        sunligthExposure: "Direct light",
+        sunlightExposure: "Direct light",
         imgSource: "images/outdoor-plants/bougainvillea.webp"
     },
     {
         plantName: "Boxwood",
         size: "Large",
         flowers: "No",
-        sunligthExposure: "Direct light",
+        sunlightExposure: "Direct light",
         imgSource: "images/outdoor-plants/boxwood.webp"
     },
     {
         plantName: "Daisy",
         size: "Medium",
         flowers: "Yes",
-        sunligthExposure: "Direct light",
+        sunlightExposure: "Direct light",
         imgSource: "images/outdoor-plants/daisy.webp"
     },
     {
         plantName: "Geranium",
         size: "Medium",
         flowers: "Yes",
-        sunligthExposure: "Direct light",
+        sunlightExposure: "Direct light",
         imgSource: "images/outdoor-plants/geranium.webp"
     },
     {
         plantName: "Hibiscus",
         size: "Medium",
         flowers: "Yes",
-        sunligthExposure: "Direct light",
+        sunlightExposure: "Direct light",
         imgSource: "images/outdoor-plants/hibiscus.webp"
     },
     {
         plantName: "Hosta",
         size: "Large",
         flowers: "Yes",
-        sunligthExposure: "Indirect light",
+        sunlightExposure: "Indirect light",
         imgSource: "images/outdoor-plants/hosta.webp"
     },
     {
         plantName: "Hydrangea",
         size: "Medium",
         flowers: "Yes",
-        sunligthExposure: "Indirect light",
+        sunlightExposure: "Indirect light",
         imgSource: "images/outdoor-plants/hydrangea.webp"
     },
     {
         plantName: "Lavander",
         size: "Medium",
         flowers: "Yes",
-        sunligthExposure: "Direct light",
+        sunlightExposure: "Direct light",
         imgSource: "images/outdoor-plants/lavander.webp"
     },
     {
         plantName: "Marygold",
         size: "Small",
         flowers: "Yes",
-        sunligthExposure: "Direct light",
+        sunlightExposure: "Direct light",
         imgSource: "images/outdoor-plants/marygold.webp"
     },
     {
         plantName: "Oleander",
         size: "Large",
         flowers: "Yes",
-        sunligthExposure: "Direct light",
+        sunlightExposure: "Direct light",
         imgSource: "images/outdoor-plants/oleander.webp"
     },
     {
         plantName: "Petunia",
         size: "Small",
         flowers: "Yes",
-        sunligthExposure: "Direct light",
+        sunlightExposure: "Direct light",
         imgSource: "images/outdoor-plants/petunia.webp"
     },
     {
         plantName: "Rose",
         size: "Large",
         flowers: "Yes",
-        sunligthExposure: "Direct light",
+        sunlightExposure: "Direct light",
         imgSource: "images/outdoor-plants/rose.webp"
     },
     {
         plantName: "Rosemary",
         size: "Medium",
         flowers: "Yes",
-        sunligthExposure: "Direct light",
+        sunlightExposure: "Direct light",
         imgSource: "images/outdoor-plants/rosemary.webp"
     },
     {
         plantName: "Sunflower",
         size: "Large",
         flowers: "Yes",
-        sunligthExposure: "Direct light",
+        sunlightExposure: "Direct light",
         imgSource: "images/outdoor-plants/sunflower.webp"
     },
 ];
@@ -245,7 +245,7 @@ function createPlantCard(plantsArray, containerId) {
         table.innerHTML = `
             <tr><th class="titleCard" colspan="2">${plant.plantName}</th></tr>
             <tr><td class="label">Flowers: </td><td>${plant.flowers}</td></tr>
-            <tr><td class="label">Sunlight Exposure: </td><td>${plant.sunligthExposure}</td></tr>
+            <tr><td class="label">Sunlight Exposure: </td><td>${plant.sunlightExposure}</td></tr>
             <tr><td class="label">Size: </td><td>${plant.size}</td></tr>
         `;
         
@@ -262,52 +262,36 @@ function filterPlants(plantsArray, filterProperty, filterValue, containerId) {
     createPlantCard(filteredPlants, containerId);
 }
 
-// Houseplants
-document.querySelector("#small")?.addEventListener("click", () => {
-    filterPlants(houseplants, "size", "Small", "album-content");
-});
+function setActiveFilterLink(clickedId) {
+    const links = document.querySelectorAll(".navigation a");
+    links.forEach(link => {
+        if (link.id === clickedId) {
+            link.classList.add("active");
+        } else {
+            link.classList.remove("active");
+        }
+    });
+}
 
-document.querySelector("#medium")?.addEventListener("click", () => {
-    filterPlants(houseplants, "size", "Medium", "album-content");
-});
+function setupFilter(id, property, value) {
+    const link = document.getElementById(id);
+    if (!link) return;
 
-document.querySelector("#large")?.addEventListener("click", () => {
-    filterPlants(houseplants, "size", "Large", "album-content");
-});
+    link.addEventListener("click", (e) => {
+        e.preventDefault();
+        setActiveFilterLink(id);
 
-document.querySelector("#flowers")?.addEventListener("click", () => {
-    filterPlants(houseplants, "flowers", "Yes", "album-content");
-});
+        if (document.getElementById("album-content")) {
+            filterPlants(houseplants, property, value, "album-content");
+        } else if (document.getElementById("outdoor-album-content")) {
+            filterPlants(outdoorplants, property, value, "outdoor-album-content");
+        }
+    });
+}
 
-document.querySelector("#indirectSunlightExposure")?.addEventListener("click", () => {
-    filterPlants(houseplants, "sunligthExposure", "Indirect light", "album-content");
-});
-
-document.querySelector("#directSunlightExposure")?.addEventListener("click", () => {
-    filterPlants(houseplants, "sunligthExposure", "Direct light", "album-content");
-});
-
-// Outdoorplants 
-document.querySelector("#small")?.addEventListener("click", () => {
-    filterPlants(outdoorplants, "size", "Small", "outdoor-album-content");
-});
-
-document.querySelector("#medium")?.addEventListener("click", () => {
-    filterPlants(outdoorplants, "size", "Medium", "outdoor-album-content");
-});
-
-document.querySelector("#large")?.addEventListener("click", () => {
-    filterPlants(outdoorplants, "size", "Large", "outdoor-album-content");
-});
-
-document.querySelector("#flowers")?.addEventListener("click", () => {
-    filterPlants(outdoorplants, "flowers", "Yes", "outdoor-album-content");
-});
-
-document.querySelector("#indirectSunlightExposure")?.addEventListener("click", () => {
-    filterPlants(outdoorplants, "sunligthExposure", "Indirect light", "outdoor-album-content");
-});
-
-document.querySelector("#directSunlightExposure")?.addEventListener("click", () => {
-    filterPlants(outdoorplants, "sunligthExposure", "Direct light", "outdoor-album-content");
-});
+setupFilter("small", "size", "Small");
+setupFilter("medium", "size", "Medium");
+setupFilter("large", "size", "Large");
+setupFilter("flowers", "flowers", "Yes");
+setupFilter("directSunlightExposure", "sunlightExposure", "Direct light");
+setupFilter("indirectSunlightExposure", "sunlightExposure", "Indirect light");

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,14 @@
     <link rel="stylesheet" href="styles/love-your-plant.css">
     <link rel="stylesheet" href="styles/love-your-plant-large.css">
     <meta name="author" content="Fernanda Souza">
-    <meta name="description"
-        content="The tips page in 'Love Your Plant, But How?' includes links to short videos from public YouTube channels to learn how to care for plants. It also includes a section with the top 5 tips for general plant care.>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="description" content="The tips page in 'Love Your Plant, But How?' includes links to short videos from public YouTube channels to learn how to care for plants. It also includes a section with the top 5 tips for general plant care.>
+    <link rel=" preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300&family=Outfit:wght@600&display=swap"
         rel="stylesheet">
     <script src="scripts/love-your-plant.js" defer></script>
 </head>
+
 <body>
     <header>
         <div id="titleAndLogo">
@@ -33,37 +34,60 @@
                 </li>
                 <li><a href="https://fernanda-testing.github.io/wdd131/love-your-plant-project/outdoor-plants.html">Outdoor
                         Plants</a></li>
-                <li><a href="https://fernanda-testing.github.io/wdd131/love-your-plant-project/tips.html" class="active">Tips</a></li>
+                <li><a href="https://fernanda-testing.github.io/wdd131/love-your-plant-project/tips.html"
+                        class="active">Tips</a></li>
             </ul>
         </nav>
     </header>
-    <p>prueba</p>
-    <p>test</p>
-    <section>
-        🌟 TOP 5 UNIVERSAL TIPS FOR PLANT CARE
-        1. Not all plants need the same amount of water 💧
-        👉 Overwatering kills more plants than underwatering.
-        Tip: Touch the soil before watering — if it’s still moist, wait. If it’s dry, water gently.
-        
-        2. Provide the right light — not always direct sunlight ☀️
-        👉 Each plant has different light needs: low, medium, or bright.
-        Tip: Watch the leaves — if they stretch toward the light, they need more; if they burn, they’re getting too much.
-        
-        3. Use a pot with good drainage 🪴
-        👉 Roots need air and should never sit in stagnant water.
-        Tip: Make sure the pot has drainage holes and don’t let water collect in the saucer.
-        
-        4. Clean the leaves and inspect your plant 🌿
-        👉 Dust blocks light and clogs leaf pores.
-        Tip: Wipe leaves with a damp cloth or give them a light shower. Check for pests, dry leaves, or unusual spots.
-        
-        5. Know your plant and observe it regularly 👀
-        👉 Plants “talk” through signs like drooping, color changes, or slow growth.
-        Tip: Do a little research about your plant, but also trust your observation to adjust care.
-    </section>
-    <footer>
-        <p>&copy;<span id="currentyear"></span> - 👩🏽‍💻​ Fernanda Souza 🌞​🌄​🌛​🌿​🏵️​ - Uruguay</p>
-        <p id="lastModified"></p>
-    </footer>
+    <main>
+        <section class="video-section">
+            <h2>Some videos from Youtube Channels that I think will help us with the care of our plants...</h2>
+            <h3>Sunlight</h3>
+            <img src="images/sun-icon.svg" alt="Sun icon">
+            <a href="https://youtu.be/q_CwpESV5O4?si=oJT7Bq87rERm_Eq8">How much light does my plant need?</a>
+            <h3>Watering</h3>
+            <img src="images/water-icon.svg" alt="Water icon">
+            <a href="https://youtube.com/shorts/_besT93XBpg?si=Qk6MkxE31hwkmQAC">How often should I water my plant?</a>
+            <h3>Temperature</h3>
+            <img src="images/temperature-icon.svg" alt="Temperature icon">
+            <a href="https://youtu.be/AFf2bVmdLQ4?si=_Jjotg6tDc3ao7Oo">What Effect Does Temperature Have on Plants?</a>
+            <h3>Transplant (Repotting)</h3>
+            <img src="images/repotting-icon.svg" alt="Repotting icon">
+            <a href="https://youtube.com/shorts/unV6DvpOjAk?si=3kvw4-yht7gnaB-f">Hack for transplanting your plant</a>
+            <h3>Pruning</h3>
+            <img src="images/pruning-icon.svg" alt="Pruning icon">
+            <a href="https://youtu.be/pJQPG8XWQ6I?si=v8sHkliTwM__17lI">When and How To Prune Your Houseplants?</a>
+        </section>
+        <section id="five-tips">
+            <h3>TOP 5 UNIVERSAL TIPS FOR PLANT CARE</h3>
+            <ul>
+                <li class="finger">Not all plants need the same amount of water
+                    Overwatering kills more plants than underwatering. <br>
+                    Tip: Touch the soil before watering — if it's still moist, wait. If it's dry, water gently.</li>
+
+                <li class="finger">Provide the right light — not always direct sunlight
+                    Each plant has different light needs: low, medium, or bright.<br>
+                    Tip: Watch the leaves — if they stretch toward the light, they need more; if they burn, they're
+                    getting too much.</li>
+
+                <li class="finger">Use a pot with good drainage
+                    Roots need air and should never sit in stagnant water.<br>
+                    Tip: Make sure the pot has drainage holes and don't let water collect in the saucer.</li>
+
+                <li class="finger">Clean the leaves and inspect your plant
+                    Dust blocks light and clogs leaf pores.<br>
+                    Tip: Wipe leaves with a damp cloth or give them a light shower. Check for pests, dry leaves, or
+                    unusual spots.</li>
+
+                <li class="finger">Know your plant and observe it regularly
+                    Plants “talk” through signs like drooping, color changes, or slow growth.<br>
+                    Tip: Do a little research about your plant, but also trust your observation to adjust care.</li>
+            </ul>
+        </section>
+        <footer>
+            <p>&copy;<span id="currentyear"></span> - 👩🏽‍💻​ Fernanda Souza 🌞​🌄​🌛​🌿​🏵️​ - Uruguay</p>
+            <p id="lastModified"></p>
+        </footer>
 </body>
+
 </html>

@@ -40,7 +40,7 @@ h1 {
     text-align: left;
 }
 
-nav ul {
+ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -207,6 +207,43 @@ figure td {
 
 .label {
     font-weight: bold;
+}
+
+.finger::before {
+    content: "🌿 ";
+}
+
+.video-section a::before {
+    content: "▶️";
+    margin-right: 8px;
+}
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-section a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+}
+
+.video-section img {
+    width: auto;
+    height: 100px;
+}
+
+.video-section h2,
+h3 {
+    text-align: center;
+}
+
+#five-tips{
+
 }
 
 footer {

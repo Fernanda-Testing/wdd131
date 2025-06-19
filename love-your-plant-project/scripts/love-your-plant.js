@@ -15,7 +15,6 @@ hamButton.addEventListener('click', () => {
     hamButton.classList.toggle('open');
 });
 
-
 const houseplants = [
     {
         plantName: "Aloe Vera",

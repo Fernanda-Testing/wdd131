@@ -45,12 +45,17 @@
         width: 80%;
         max-width: 800px;
         padding: 20px;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     #benefits h2 {
         color: var(--secondary-color);
         background-color: var(--primary-color);
         padding: 20px;
+        margin: -20px -20px 15px -20px;
     }
 
     picture img {

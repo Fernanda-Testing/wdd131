@@ -251,6 +251,15 @@ h3 {
     line-height: 2rem;
 }
 
+.questionAndAnswer-content {
+    text-align: center;
+    margin-top: 30px;
+    padding: 8px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px black;
+    line-height: 1rem;
+}
+
 footer {
     display: flex;
     align-items: center;

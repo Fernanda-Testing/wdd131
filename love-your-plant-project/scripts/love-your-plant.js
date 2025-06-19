@@ -294,3 +294,81 @@ setupFilter("large", "size", "Large");
 setupFilter("flowers", "flowers", "Yes");
 setupFilter("directSunlightExposure", "sunlightExposure", "Direct light");
 setupFilter("indirectSunlightExposure", "sunlightExposure", "Indirect light");
+
+
+const commonQuestionsWithAnswersHP = [
+    {
+        question: "How much light does this plant need?",
+        answer: "Most indoor plants prefer bright, indirect light.",
+    },
+    {
+        question: "How often should I water it?",
+        answer: "Usually once a week, but check if the soil is dry first.",
+    },
+    {
+        question: "Can I place it in the bathroom or bedroom?",
+        answer: "Yes, as long as it gets enough light and ventilation.",
+    },
+    {
+        question: "Is it toxic to pets or children?",
+        answer: "Check the specific plant — some are toxic if ingested.",
+    },
+    {
+        question: "Why are its leaves turning yellow?",
+        answer: "Often due to overwatering or low light.",
+    },
+]
+
+const commonQuestionsWithAnswersOP = [
+    {
+        question: "Does this plant tolerate direct sunlight?",
+        answer: "Check the species — some love sun, others prefer shade.",
+    },
+    {
+        question: "What is the minimum temperature it can handle?",
+        answer: "Many outdoor plants can handle mild frost; check the label.",
+    },
+    {
+        question: "How often should I water it if it's in the garden?",
+        answer: "Usually 1-2 times per week, depending on weather.",
+    },
+    {
+        question: "Does it need pruning? In which season?",
+        answer: "Yes, usually in late winter or early spring.",
+    },
+    {
+        question: "Does it attract beneficial insects or pests?",
+        answer: "Many flowering plants attract pollinators like bees.",
+    },
+]
+
+function createQuestionsAndAnswersSection(QuestionsAndAnswersArray, containerQandAId) {
+    const questionsAndAnswersContainer = document.getElementById(containerQandAId);
+
+    questionsAndAnswersContainer.innerHTML = "";
+
+    const titleSectionElement = document.createElement("h2");
+    titleSectionElement.textContent = `FREQUENTLY ASKED QUESTIONS`;
+    questionsAndAnswersContainer.appendChild(titleSectionElement);
+
+    QuestionsAndAnswersArray.forEach(item => {
+            
+        const questionElement = document.createElement("h3");
+        questionElement.textContent = item.question;
+
+        const answerElement = document.createElement("p");
+        answerElement.textContent = item.answer;
+
+        
+        questionsAndAnswersContainer.appendChild(questionElement);
+        questionsAndAnswersContainer.appendChild(answerElement);
+    });
+}
+
+if (document.getElementById("questionAndAnswer-content")) {
+    createQuestionsAndAnswersSection(commonQuestionsWithAnswersHP, "questionAndAnswer-content");
+}
+
+if (document.getElementById("outdoor-questionAndAnswer-content")) {
+    createQuestionsAndAnswersSection(commonQuestionsWithAnswersOP, "outdoor-questionAndAnswer-content");
+}

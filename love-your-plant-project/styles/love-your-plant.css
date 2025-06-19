@@ -314,7 +314,7 @@ textarea.form-control {
 }
 
 .btn-submit {
-    background-color: (--primary-color);
+    background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: 0.8rem;
     border: none;

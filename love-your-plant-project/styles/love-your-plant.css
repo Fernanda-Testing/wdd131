@@ -75,7 +75,8 @@ a:hover {
 .navigation {
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
 }
 
 .navigation a {

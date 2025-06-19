@@ -42,14 +42,9 @@
     }
 
     #benefits {
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.7);
-        color: var(--primary-color);
-        padding: 10px;
-        top: 50%;
-        left: 50%;
-        box-shadow: 0 0 20px black;
-        line-height: 2;
+        width: 80%;
+        max-width: 800px;
+        padding: 20px;
     }
 
     #benefits h2 {
@@ -59,7 +54,6 @@
     }
 
     picture img {
-
         width: 100%;
         height: auto;
         display: block;

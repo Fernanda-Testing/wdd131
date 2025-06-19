@@ -9,7 +9,6 @@ body {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     font-family: "Inter", sans-serif;
-    font-weight: 300;
 }
 
 header {
@@ -209,7 +208,7 @@ figure td {
     font-weight: bold;
 }
 
-.finger::before {
+.emoji::before {
     content: "🌿 ";
 }
 
@@ -242,8 +241,14 @@ h3 {
     text-align: center;
 }
 
-#five-tips{
-
+#five-tips {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    padding: 8px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px black;
+    line-height: 2rem;
 }
 
 footer {
